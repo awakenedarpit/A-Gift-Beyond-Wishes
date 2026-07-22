@@ -1,164 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
 
-    <title>Happy Birthday Mahima ❤️</title>
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<title>A Gift Beyond Wishes</title>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/main.css">
+
+<link rel="stylesheet" href="css/hero.css">
+
+<link rel="stylesheet" href="css/responsive.css">
 
 </head>
+
 <body>
 
-<!-- ================= LOADER ================= -->
-
-<div id="loader">
-
-    <h2>Loading Your Surprise...</h2>
-
-    <div class="progress">
-        <div class="progress-bar"></div>
-    </div>
-
-</div>
-
-
-<!-- ================= HERO ================= -->
+<div id="app">
 
 <section id="hero">
 
+    <div class="background"></div>
     <div class="stars"></div>
-
-    <div class="overlay"></div>
+    <div id="shooting-stars"></div>
 
     <div class="hero-content">
 
-        <h3 class="small-title">
-            A Little Surprise For
-        </h3>
-
-        <h1>
-            Mahima Kanoujiya
-        </h1>
-
-        <p>
-            Every star has a story...
-            <br>
-            Tonight, this one is yours.
+        <p class="top-text">
+            ✨ A Special Birthday Experience ✨
         </p>
 
-        <button id="beginBtn">
-            ✨ Tap To Begin
+        <h1>
+            Happy Birthday
+        </h1>
+
+        <h2 id="recipientName">
+            Mahima Kanoujiya
+        </h2>
+
+        <p class="subtitle">
+            Every star has a story...
+            <br>
+            Tonight, one shines for you.
+        </p>
+
+        <button id="startJourney">
+            Begin Your Journey →
         </button>
 
     </div>
 
 </section>
 
+<section id="letter"></section>
 
-<!-- ================= LETTER SECTION ================= -->
+<section id="celebrating"></section>
 
-<section id="letterSection" class="hidden">
+<section id="gallery"></section>
 
-    <div class="envelope" id="envelope">
+<section id="celebration"></section>
 
-        <div class="envelope-front">
-            💌
-        </div>
+<section id="ending"></section>
 
-    </div>
-
-    <div class="letter hidden" id="letter">
-
-        <h2>Dear Mahima ❤️</h2>
-
-        <p id="typingText"></p>
-
-    </div>
-
-</section>
-
-
-<!-- ================= ABOUT MAHIMA ================= -->
-
-<section id="aboutSection" class="hidden">
-
-    <h2 class="section-title">
-        ✨ A Few Things That Make You Special ✨
-    </h2>
-
-    <div class="card-container">
-
-        <div class="about-card">
-            <div class="emoji">😊</div>
-            <h3>Your Smile</h3>
-            <p>
-                May your smile always stay as bright as it is today.
-            </p>
-        </div>
-
-        <div class="about-card">
-            <div class="emoji">🌸</div>
-            <h3>Your Kindness</h3>
-            <p>
-                Kindness is your superpower. Never lose it.
-            </p>
-        </div>
-
-        <div class="about-card">
-            <div class="emoji">✨</div>
-            <h3>Your Dreams</h3>
-            <p>
-                Dream big and believe in yourself. Great things await you.
-            </p>
-        </div>
-
-        <div class="about-card">
-            <div class="emoji">💖</div>
-            <h3>Your Heart</h3>
-            <p>
-                Stay exactly the way you are—genuine, caring and wonderful.
-            </p>
-        </div>
-
-    </div>
-
-    <button id="galleryBtn">
-        Continue ➜
-    </button>
-
-</section>
-
-
-
-<!-- ================= MUSIC ================= -->
-
-<audio id="bgMusic" loop>
-
-    <source src="assets/music/birthday.mp3" type="audio/mpeg">
-
-</audio>
-
-<button id="musicBtn">
-
-    🎵
-
-</button>
-
-<!-- JS -->
-
+</div>
 
 <script src="config.js"></script>
-<script src="script.js"></script>
 
+<script src="js/app.js"></script>
 
-<script src="script.js"></script>
+<script src="js/hero.js"></script>
 
 </body>
+
 </html>
