@@ -426,3 +426,65 @@ transform:translateY(-120px) scale(1.8);
 }
 
 }
+
+
+
+
+/* ==========================
+        LETTER SECTION
+========================== */
+
+.hidden{
+    display:none;
+}
+
+#letterSection{
+    width:100%;
+    height:100vh;
+    background:linear-gradient(135deg,#120d2b,#25194f);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.envelope{
+    width:170px;
+    height:120px;
+    background:#ff6ea8;
+    border-radius:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:60px;
+    cursor:pointer;
+    transition:.5s;
+    box-shadow:0 0 30px #ff69b4;
+}
+
+.envelope:hover{
+    transform:scale(1.08) rotate(-3deg);
+}
+
+.letter{
+    margin-top:40px;
+    width:80%;
+    max-width:700px;
+    background:white;
+    color:#333;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 0 40px rgba(255,255,255,.3);
+}
+
+.letter h2{
+    font-family:"Great Vibes",cursive;
+    color:#ff4f9a;
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+.letter p{
+    font-size:18px;
+    line-height:32px;
+}
