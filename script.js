@@ -63,7 +63,13 @@ beginBtn.addEventListener("click", () => {
     playing = true;
     musicBtn.innerHTML = "🔊";
 
-    beginBtn.innerHTML = "✨ Welcome Mahima ✨";
+    beginBtn.addEventListener("click",()=>{
+
+    music.play();
+
+    showScene("letterSection");
+
+});
 
 });
 
