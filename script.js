@@ -153,8 +153,9 @@ Happy Birthday once again!
 — Arpit Raj ❤️`;
 
 beginBtn.addEventListener("click", () => {
-
-    showScene("letterSection");
+hero.style.display="none";
+letterSection.classList.remove("hidden");
+    
 });
 
 envelope.addEventListener("click", () => {
@@ -208,15 +209,3 @@ setTimeout(()=>{
 },100);
 
 
-
-function showScene(id){
-
-    document.querySelectorAll(".scene").forEach(scene=>{
-
-        scene.classList.remove("active");
-
-    });
-
-    document.getElementById(id).classList.add("active");
-
-}
