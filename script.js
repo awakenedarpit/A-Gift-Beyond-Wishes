@@ -148,9 +148,7 @@ Happy Birthday once again!
 
 beginBtn.addEventListener("click", () => {
 
-    hero.style.display = "none";
-    letterSection.classList.remove("hidden");
-
+    showScene("letterSection");
 });
 
 envelope.addEventListener("click", () => {
@@ -202,3 +200,17 @@ setTimeout(()=>{
     });
 
 },100);
+
+
+
+function showScene(id){
+
+    document.querySelectorAll(".scene").forEach(scene=>{
+
+        scene.classList.remove("active");
+
+    });
+
+    document.getElementById(id).classList.add("active");
+
+}
