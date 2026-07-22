@@ -176,3 +176,29 @@ envelope.addEventListener("click", () => {
     type();
 
 });
+
+
+
+// ABOUT SECTION
+
+const aboutSection = document.getElementById("aboutSection");
+
+const galleryBtn = document.getElementById("galleryBtn");
+
+function openAbout(){
+
+    letterSection.style.display="none";
+
+    aboutSection.classList.remove("hidden");
+
+}
+
+setTimeout(()=>{
+
+    envelope.addEventListener("dblclick",()=>{
+
+        openAbout();
+
+    });
+
+},100);
