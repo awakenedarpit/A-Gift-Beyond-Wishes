@@ -5,12 +5,11 @@ const CONFIG = {
   },
 
   sender: {
-    name: "Arpit Raj"
+    name: "Arpit Raj",
+    relation: "Best Friend"
   },
 
-  birthday: {
-    date: "2026-08-13"
-  },
+  birthday: "2026-08-13",
 
   music: {
     background: "assets/music/birthday.mp3"
@@ -19,21 +18,13 @@ const CONFIG = {
   gallery: [
     {
       image: "assets/photos/photo1.jpg",
-      caption: "A beautiful memory 🌸"
-    },
-    {
-      image: "assets/photos/photo2.jpg",
-      caption: "Smiles that make every day brighter ❤️"
-    },
-    {
-      image: "assets/photos/photo3.jpg",
-      caption: "One more unforgettable moment ✨"
+      caption: "Keep smiling. 🌸"
     }
   ],
 
-  colors: {
-    primary: "#ff69b4",
-    secondary: "#c084fc",
-    background: "#090b1a"
+  theme: {
+    primary: "#FF69B4",
+    secondary: "#C084FC",
+    background: "#090B1A"
   }
 };
