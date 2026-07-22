@@ -1,0 +1,29 @@
+birthday-for-mahima/
+│
+├── index.html
+├── config.js
+├── README.md
+│
+├── css/
+│   ├── main.css
+│   ├── hero.css
+│   ├── letter.css
+│   ├── gallery.css
+│   ├── celebration.css
+│   ├── ending.css
+│   └── responsive.css
+│
+├── js/
+│   ├── app.js
+│   ├── hero.js
+│   ├── letter.js
+│   ├── gallery.js
+│   ├── celebration.js
+│   ├── ending.js
+│   └── utils.js
+│
+└── assets/
+    ├── music/
+    ├── photos/
+    ├── icons/
+    └── videos/
