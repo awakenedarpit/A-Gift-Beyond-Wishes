@@ -63,8 +63,7 @@ beginBtn.addEventListener("click", () => {
     playing = true;
     musicBtn.innerHTML = "🔊";
 
-   beginBtn.innerHTML="✨Welcome Mahima ✨";
-});
+    beginBtn.innerHTML = "✨ Welcome Mahima ✨";
 
 });
 
@@ -119,88 +118,3 @@ document.addEventListener("click", (e) => {
     }, 2000);
 
 });
-
-
-
-
-// ==========================
-// LETTER SCENE
-// ==========================
-
-const hero = document.getElementById("hero");
-const letterSection = document.getElementById("letterSection");
-const envelope = document.getElementById("envelope");
-const letter = document.getElementById("letter");
-const typingText = document.getElementById("typingText");
-
-const message = `Happy Birthday, Mahima! 🎂💖
-
-Today is all about celebrating an amazing friend who brings happiness wherever she goes.
-
-Thank you for being such a wonderful person. I hope this new year of your life is filled with beautiful memories, success, laughter, and countless reasons to smile.
-
-May all your dreams come true and may your heart always stay as kind as it is today.
-
-Enjoy every moment of your special day.
-
-Happy Birthday once again!
-
-— Arpit Raj ❤️`;
-
-beginBtn.addEventListener("click", () => {
-hero.style.display="none";
-letterSection.classList.remove("hidden");
-    
-});
-
-envelope.addEventListener("click", () => {
-
-    envelope.style.display = "none";
-    letter.classList.remove("hidden");
-
-    let i = 0;
-
-    function type(){
-
-        if(i < message.length){
-
-            typingText.innerHTML += message.charAt(i);
-            i++;
-
-            setTimeout(type,35);
-
-        }
-
-    }
-
-    type();
-
-});
-
-
-
-// ABOUT SECTION
-
-const aboutSection = document.getElementById("aboutSection");
-
-const galleryBtn = document.getElementById("galleryBtn");
-
-function openAbout(){
-
-    letterSection.style.display="none";
-
-    aboutSection.classList.remove("hidden");
-
-}
-
-setTimeout(()=>{
-
-    envelope.addEventListener("dblclick",()=>{
-
-        openAbout();
-
-    });
-
-},100);
-
-
